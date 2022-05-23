@@ -9,15 +9,40 @@
     /*border: 2px solid black;*/
 }
 
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 /*utilities*/
 :root{
-    
+    --blue: #0061FF;
+    --azure: #B4D0E7;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
 }
 
 .bl-button{
-    background-color: #0061FF;
+    background-color: var(--blue);
     color: white;
-    padding: 20px;
+    padding: 10px;
+}
+
+.bg-az{
+    background-color: var(--azure);
+    padding-top: 80px;
+}
+
+.small-container{
+    width: 200px;
 }
 
 /*header*/
@@ -36,4 +61,19 @@
 .nav-bar{
     display: flex;
     align-items: center;
+}
+
+/*main*/
+.img-jumbo{
+    height: 500px;
+    float: right;
+    margin: 0;
+}
+
+/*.jumbo{
+    display: flex;
+}*/
+
+.jumbo-margin{
+    margin-top: 50px;
 }
