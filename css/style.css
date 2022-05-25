@@ -39,6 +39,12 @@ h3{
     padding-top: 80px;
 }
 
+.button{
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
 .bl-button{
     background-color: var(--blue);
     color: white;
@@ -53,6 +59,14 @@ h3{
     background-color: var(--azure);
 }
 
+.inline-block{
+    display: block-block;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
 
 /*header*/
 .header{
@@ -114,7 +128,7 @@ h3{
 
 .iscription{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .is-box{
@@ -199,4 +213,46 @@ li span{
 
 .space-list >span{
     font-size: 1rem;
+}
+
+.is-large-box{
+    width: 100%;
+    border: 1px solid var(--lightgray);
+    margin-bottom: 200px;
+}
+
+.is-contact{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.contact-button{
+    text-decoration: none;
+    width: 280px;
+    max-height: 45px;
+    text-align: center;
+}
+
+.last-is-bottom{
+    margin-bottom: 20px;
+}
+
+.last-is-big-bottom{
+    margin-bottom: 40px;
+}
+
+/*partner*/
+.sub-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-img{
+    height: 500px;
+}
+
+.partner-space > *{
+    margin: 25px;
 }
