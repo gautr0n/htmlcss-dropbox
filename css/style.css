@@ -371,6 +371,7 @@ li span{
 
 .designit-column img{
     width: 150px;
+    filter: invert(100%);
 }
 
 .designit-column{
