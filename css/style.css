@@ -50,6 +50,15 @@ h3{
     border: 2px solid black;
 }
 
+.button-free-try{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 280px;
+    text-align: center;
+}
+
 .bl-button{
     background-color: var(--blue);
     color: white;
@@ -343,7 +352,7 @@ li span{
     width: 200px;
 }
 
-hr{
+.designit-principal hr{
     width: 50px;
 }
 
@@ -370,4 +379,74 @@ hr{
     align-items: center;
     width: 260px;
     height: 260px;
+}
+
+.free-try{
+    background-color: #B4D0E7;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.free-try h2{
+    color: #61082B;
+}
+
+.free-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*questions*/
+
+.questions *{
+    margin: 20px 0;
+}
+
+.questions h2{
+    margin: 50px 0;
+}
+
+.questions-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 20px 0;
+}
+
+.footer-flex li{
+    color: white;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.footer-flex li:first-child{
+    margin-bottom: 20px;
+}
+
+.footer-flex a{
+    color: white;
+}
+
+.language{
+    width: 100px;
+    margin-left: 260px;
+    padding: 80px 0 20px 0;
+}
+
+.language *{
+    color: white;
+    margin-bottom: 50px;
 }
