@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
     /* border: 2px solid black; */
 }
 
@@ -25,6 +26,10 @@ h3{
     --azure: #B4D0E7;
     --lightgray: #E1E1E3;
     --time-color: #68686D;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .container{
@@ -85,14 +90,18 @@ h3{
     margin: 0 20px;
 }
 
+.color-change>a:not(:last-child){
+    color: black;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
 }
 
 .nav-bar a{
-    text-decoration: none;
-    color: black;}
+    color: black;
+}
 
 /*main*/
 
@@ -265,6 +274,8 @@ li span{
 .figcaption{
     display: flex;
     width: 1000px;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .figure{
@@ -273,5 +284,5 @@ li span{
 }
 
 .img{
-    width: calc(1000px/3);
+    width: calc(1000px/3 - 50px);
 }
